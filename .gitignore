@@ -1,0 +1,91 @@
+# ============================================================
+# Secrets & variables d'environnement
+# ============================================================
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+.streamlit/secrets.toml
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+.installed.cfg
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Tests / couverture / outils
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.hypothesis/
+.ipynb_checkpoints/
+
+# ============================================================
+# Logs & données locales
+# ============================================================
+*.log
+logs/
+*.sqlite
+*.sqlite3
+*.db
+tmp/
+temp/
+
+# ============================================================
+# Docker (fichiers locaux)
+# ============================================================
+docker-compose.override.yml
+
+# ============================================================
+# Éditeurs / IDE
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================================
+# Système (macOS / Windows / Linux)
+# ============================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ============================================================
+# Claude Code (paramètres locaux)
+# ============================================================
+.claude/settings.local.json

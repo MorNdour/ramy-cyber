@@ -1,0 +1,7 @@
+anthropic>=0.40.0
+tenacity>=8.5.0
+python-dotenv>=1.0.0
+paramiko>=3.4.0
+fastapi>=0.115.0
+uvicorn>=0.30.0
+python-multipart>=0.0.9
